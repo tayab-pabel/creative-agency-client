@@ -26,17 +26,17 @@ const Sidebar = () => {
             {isAdmin ? <ul className="list-unstyled mt-5">
                 <li>
                     <Link to="/adminServiceList" className="dashboard-component">
-                        <i className="fas fa-hdd"></i> <p>Service List</p>
+                        <i className="fas fa-hdd"></i> <span>Service List</span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/addService" className="dashboard-component">
-                        <i className="fas fa-plus"></i> <p>Add Service</p>
+                        <i className="fas fa-plus"></i> <span>Add Service</span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/addAdmin" className="dashboard-component">
-                        <i className="fas fa-user-plus"></i> <p>Make Admin</p>
+                        <i className="fas fa-user-plus"></i> <span>Make Admin</span>
                     </Link>
                 </li>
             </ul>
