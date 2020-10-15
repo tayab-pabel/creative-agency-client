@@ -1,22 +1,33 @@
 import React from 'react';
+import './OrderList.css';
 
-const OrderList = ({order}) => {
+const OrderList = ({orders}) => {
     return (
-        <div className="row">
-            <div className="col-3">
-                <p>{order.name}</p>
-            </div>
-            <div className="col-3">
-                <p>{order.email}</p>
-            </div>
-            <div className="col-3">
-                <p>{order.service}</p>
-            </div>
-            <div className="col-3">
-                <p>{order.description}</p>
-            </div>
+        <div className="order-list">
+            <table className="table table-borderless">
+                <thead>
+                    <tr>
+                    <th className="text-secondary" scope="col">Name</th>
+                    <th className="text-secondary" scope="col">Email</th>
+                    <th className="text-secondary" scope="col">Service</th>
+                    <th className="text-secondary" scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                    orders.map((order) => 
+                            
+                        <tr>
+                            <td>{order.name}</td>
+                            <td>{order.email}</td>
+                            <td>{order.service}</td>
+                            <td>{order.description}</td>
+                        </tr>
+                        )
+                    }
+                </tbody>
+            </table>
         </div>
-        
     );
 };
 
