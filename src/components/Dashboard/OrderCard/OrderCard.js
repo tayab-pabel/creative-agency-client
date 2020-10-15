@@ -8,7 +8,7 @@ const OrderCard = ({order}) => {
                 {
                     order.image ? <img className="img" src={`data:image/png;base64,${order.image.img}`}/>
                     :
-                    <img className="img" src={`http://localhost:5000/${order.image}`} alt=""/>
+                    <img className="img" src={`https://safe-beach-32107.herokuapp.com/${order.image}`} alt=""/>
                 }  
                 <h5 className="mt-4">{order.service}</h5>
                 <p className="mt-3">{order.description}</p>

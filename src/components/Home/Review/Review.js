@@ -11,7 +11,7 @@ const Review = ({review}) => {
                         {
                             review.image ? <img src={`data:image/png;base64,${review.image.img}`}/>
                             :
-                            <img src={`http://localhost:5000/${review.image}`} alt=""/>
+                            <img src={`https://safe-beach-32107.herokuapp.com/${review.image}`} alt=""/>
                         }
                     </div>
                     <div className="client-info ml-3 mt-2">

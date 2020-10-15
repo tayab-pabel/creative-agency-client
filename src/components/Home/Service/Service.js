@@ -11,7 +11,7 @@ const Service = ({service}) => {
                     {
                         service.icon ? <img className="img" src={`data:icon/png;base64,${service.icon.img}`}/>
                         :
-                        <img className="img" src={`http://localhost:5000/${service.icon}`} alt=""/>
+                        <img className="img" src={`https://safe-beach-32107.herokuapp.com/${service.icon}`} alt=""/>
                     }  
                     <h5 className="mt-4">{service.title}</h5>
                     <p className="mt-3">{service.description}</p>

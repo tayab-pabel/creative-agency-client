@@ -52,7 +52,7 @@ const Login = () => {
                 <div className="google-signIn mt-5">
                     <Link to="/" onClick={handleGoogleSignIn} className="google-btn d-flex pt-2 pb-0">
                         <img className="google-icon ml-2 mr-4" src={googleLogo} alt=""/>
-                        <p className="pl-5 ml-5 pt-1 pb-0 mb-2">Continue with Google</p>
+                        <p className="pl-5 ml-md-5 ml-0 pt-1 pb-0 mb-2">Continue with Google</p>
                     </Link>
                 </div>
                 <p className="mt-3">Don’t have an account? <a href="/">Create an account</a></p>

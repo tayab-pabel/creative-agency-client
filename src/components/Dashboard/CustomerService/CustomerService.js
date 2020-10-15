@@ -9,7 +9,7 @@ const CustomerService = () => {
     const [orders, setOrders] = useState([])
 
     useEffect( () => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://safe-beach-32107.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => setOrders(data))
     }, [])
