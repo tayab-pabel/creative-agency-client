@@ -16,3 +16,8 @@
 .sidebar .dashboard-component {
     text-decoration: none;
 }
+
+.sidebar .dashboard-component:active span {
+    color: #009444;
+
+}

@@ -16,7 +16,6 @@ const OrderList = ({orders}) => {
                 <tbody>
                     {
                     orders.map((order) => 
-                            
                         <tr>
                             <td>{order.name}</td>
                             <td>{order.email}</td>

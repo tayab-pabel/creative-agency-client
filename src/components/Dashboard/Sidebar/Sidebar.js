@@ -23,21 +23,20 @@ const Sidebar = () => {
             <Link to="/" className="sidebar-header">
                 <img style={{width: '150px', height: '47px'}} src={logo} alt="logo"/>
             </Link>
-            
             {isAdmin ? <ul className="list-unstyled mt-5">
                 <li>
                     <Link to="/adminServiceList" className="dashboard-component">
-                        <i className="fas fa-hdd"></i> <span>Service List</span>
+                        <i className="fas fa-hdd"></i> <p>Service List</p>
                     </Link>
                 </li>
                 <li>
                     <Link to="/addService" className="dashboard-component">
-                        <i className="fas fa-plus"></i> <span>Add Service</span>
+                        <i className="fas fa-plus"></i> <p>Add Service</p>
                     </Link>
                 </li>
                 <li>
                     <Link to="/addAdmin" className="dashboard-component">
-                        <i className="fas fa-user-plus"></i> <span>Make Admin</span>
+                        <i className="fas fa-user-plus"></i> <p>Make Admin</p>
                     </Link>
                 </li>
             </ul>
