@@ -1,0 +1,22 @@
+.works {
+    background: #111430;
+}
+
+.works .owl-theme img:hover {
+    cursor: pointer;
+}
+
+.works .owl-theme .owl-dots .owl-dot span{
+    background:#242A65;
+    width: 15px;
+    height: 15px;
+}
+
+.works .owl-theme .owl-dots .owl-dot.active span {
+    background:#FBD062;
+}
+
+.works .owl-theme .owl-dots .owl-dot:focus {
+    outline:none;
+}
+  

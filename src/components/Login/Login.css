@@ -1,0 +1,43 @@
+.login .login-header img {
+    width: 150px;
+    height: 47px;
+    margin: 50px 0;
+}
+
+.login .card {
+    max-width: 570px;
+    margin: auto;
+    padding: 150px 0;
+    border: 1px solid #ABABAB;
+}
+
+.login .google-icon {
+    width: 31px;
+    height: 31.74px;
+}
+
+.login h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.login p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.login .google-btn {
+    max-width: 457px;
+    height: 51px;
+    margin: auto;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+}
+
+.login .google-btn:hover {
+    text-decoration: none;
+}

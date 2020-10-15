@@ -1,0 +1,27 @@
+.admin-service h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0C0C0C;
+}
+
+.admin-service p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686868;
+}
+
+.admin-service .order-list p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.admin-service .text-dark {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}

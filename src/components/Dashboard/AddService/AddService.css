@@ -1,0 +1,60 @@
+.add-service h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0C0C0C;
+}
+
+.add-service p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0C0C;
+}
+
+.add-service label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.add-service input::placeholder,
+.add-service textarea::placeholder {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.add-service input:focus::placeholder,
+.add-service textarea:focus::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.add-service .upload-image input[type="file"] {
+    display: none;
+}
+
+.add-service .upload-image label {
+    padding: 6px 40px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009444;
+    background: #DEFFED;
+    border: 1px solid #009444;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+}
+
+.add-service .btn {
+    color: #FFFFFF;
+    background: #009444;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 8px 40px;
+}

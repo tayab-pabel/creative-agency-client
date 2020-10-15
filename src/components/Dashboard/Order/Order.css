@@ -1,0 +1,65 @@
+.order h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0C0C0C;
+}
+
+.order p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0C0C;
+}
+
+.order input,
+.order textarea {
+    padding: 30px;
+}
+
+.order input,
+.order textarea,
+.order select {
+    border: none;
+}
+
+.order input::placeholder,
+.order textarea::placeholder,
+.order select {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order input:focus::placeholder,
+.order textarea:focus::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.order input[type="file"] {
+    display: none;
+}
+
+.order label {
+    padding: 18px 48px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009444;
+    background: #DEFFED;
+    border: 1px solid #009444;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+}
+
+.order .btn {
+    color: #FFFFFF;
+    background: #111430;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px 60px;
+}

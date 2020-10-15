@@ -1,0 +1,36 @@
+.service {
+    transition: 1s;
+}
+
+.service img {
+    width: 74px;
+    height: 74px;
+}
+
+.service h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.396px;
+    color: #111430;
+}
+
+.service p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.service:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow:  10px 10px 30px#7AB259, 
+             -10px -10px 30px #FBD062;
+}
+
+.service-link {
+    text-decoration: none!important;
+}

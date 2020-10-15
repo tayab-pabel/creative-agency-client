@@ -1,0 +1,18 @@
+.sidebar .fas,
+.sidebar .far {
+    width: 24px;
+    height: 24px;
+    margin: 10px 0;
+    color: #263238;
+}
+
+.sidebar span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263238;
+}
+
+.sidebar .dashboard-component {
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.contact {
+    background: #FBD062;
+    padding-top: 70px;
+}
+
+.contact h3 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.396px;
+    color: #2D2D2D;
+}
+
+.contact p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.contact input,
+.contact textarea {
+    padding: 30px;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.contact input:focus::placeholder,
+.contact textarea:focus::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
