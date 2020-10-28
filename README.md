@@ -5,11 +5,11 @@
 ● An admin can add a new service from the dashboard which will be visible in the services section.
 
 ## Technologies: 
-⋅⋅* React
-⋅⋅* React Router
-⋅⋅* Node.js 
-⋅⋅* Express.js 
-⋅⋅* MongoDB
-⋅⋅* Bootstrap
-⋅⋅* Firebase
-⋅⋅* Heroku
+⋅⋅* React.
+⋅⋅* React Router.
+⋅⋅* Node.js.
+⋅⋅* Express.js. 
+⋅⋅* MongoDB.
+⋅⋅* Bootstrap.
+⋅⋅* Firebase.
+⋅⋅* Heroku.
